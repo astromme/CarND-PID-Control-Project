@@ -34,7 +34,7 @@ int main()
 
   // todo: find better initalization;
   PID pid;
-  pid.Init(0.1, 0.002, 0.5);
+  pid.Init(0.1, 0.002, 2.0);
 
   PID speed_pid;
   speed_pid.Init(0.5, 0.004, 1.0);
